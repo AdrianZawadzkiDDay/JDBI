@@ -6,7 +6,7 @@ import java.util.Optional;
 import com.example.demo.repository.ProductRepository;
 import com.example.demo.service.ProductService;
 import com.example.demo.service.exception.DataNotFoundException;
-import entities.Product;
+import com.example.demo.entities.Product;
 import jakarta.validation.Valid;
 import org.jdbi.v3.core.Jdbi;
 import org.springframework.stereotype.Service;

@@ -2,7 +2,7 @@ package com.example.demo.service;
 
 import java.util.List;
 import java.util.Optional;
-import entities.Product;
+import com.example.demo.entities.Product;
 import jakarta.validation.Valid;
 
 public interface ProductService {
