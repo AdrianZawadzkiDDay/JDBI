@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import com.example.demo.service.ProductService;
-import com.example.demo.entities.Product;
+import com.example.demo.model.Product;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

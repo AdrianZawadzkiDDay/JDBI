@@ -3,7 +3,7 @@ package com.example.demo.repository;
 
 import java.util.List;
 
-import com.example.demo.entities.Product;
+import com.example.demo.model.Product;
 import jakarta.validation.Valid;
 import org.jdbi.v3.sqlobject.config.RegisterBeanMapper;
 import org.jdbi.v3.sqlobject.customizer.Bind;
