@@ -7,8 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.jdbi.v3.core.mapper.Nested;
-import org.jdbi.v3.core.mapper.reflect.ColumnName;
 
 @Data
 @NoArgsConstructor
