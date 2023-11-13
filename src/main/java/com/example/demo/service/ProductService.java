@@ -8,7 +8,7 @@ import jakarta.validation.Valid;
 public interface ProductService {
     Product create(Product product);
 
-    List<Product> gdtAllProducts();
+    List<Product> getAllProducts();
 
     Optional<Product> getProductById(long id);
 

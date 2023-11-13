@@ -36,7 +36,7 @@ public class ProductController {
     @GetMapping()
     public ResponseEntity<List<Product>> getAllProducts() {
         log.info("Rest request to get all products");
-        List<Product> list = productService.gdtAllProducts();
+        List<Product> list = productService.getAllProducts();
         return new ResponseEntity<>(list, HttpStatus.OK);
     }
 
