@@ -18,6 +18,8 @@ CREATE TABLE MANAGER (
     bonus integer
 );
 
+INSERT INTO MANAGER (id, first_name, last_name, bonus) VALUES(1, "Adrian", "Zet", 500000);
+
 CREATE TABLE CUSTOMER (
     id  serial,
     first_name varchar(200),
@@ -27,3 +29,6 @@ CREATE TABLE CUSTOMER (
     email text,
     manager_id integer
 );
+
+INSERT INTO CUSTOMER (first_name, last_name, birth_date, phone, email, manager_id)
+VALUES ('Adam', 'Hamill', '1991-01-01', '123456798', 'adam.hamill@example.com', 1);
